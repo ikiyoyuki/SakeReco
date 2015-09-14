@@ -1,1 +1,6 @@
-  <p><%= record.text %></p>
+<div class="content_post" style="background-image: url(<%= record.image %>);">
+  <p>
+    <%= br(record.text) %>
+  </p>
+  <span class="name"><%= record.name %></span>
+</div>
